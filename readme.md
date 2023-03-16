@@ -71,8 +71,15 @@ npm run build
 # for dev enviroment run
 npm run dev
 ```
+<div align="center" style="margin-top:50px">
+  <a href="https://vk.com/xlsoftware" target="_blank" rel="noreferrer">
+    <img src="https://sun9-55.userapi.com/impg/w3CcQj5NWwxbqnROSewa4pqAHzNgWubZ0LSv2g/1a5h9_xUpOs.jpg?size=1280x607&quality=96&sign=da87ca5623eb2d97f3472966b007b5f1&type=album" width=500>
+  </a>
+</div>
+
 <div align="center" style="opacity: 0.2; margin-top:50px">
   <a href="https://vk.com/xlsoftware" target="_blank" rel="noreferrer">
     <img src="https://github.com/xl-soft/press-tools/raw/master/src/assets/img/powered.svg" width=150>
   </a>
 </div>
+
