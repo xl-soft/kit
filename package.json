@@ -1,0 +1,31 @@
+{
+	"name": "helloworld",
+	"version": "0.1.0",
+	"scripts": {
+		"dev": "vite dev",
+		"start": "docker-compose -f ./build/docker-compose.yaml up",
+		"build": "concurrently -m 1 \"docker network create net\" \"docker image prune -f\" \"vite build\" \"node -r dotenv/config ./config/build.js\" \"docker-compose -f ./build/docker-compose.yaml build\" \"docker image prune -f\"",
+		"compile": "concurrently -m 1 \"docker network create net\" \"docker image prune -f\" \"vite build\" \"node -r dotenv/config ./config/build.js\" \"docker-compose -f ./build/docker-compose.yaml build\" \"docker image prune -f\" \"docker-compose -f ./build/docker-compose.yaml up\"",
+		"compose": "node -r dotenv/config ./config/build.js",
+		"test": "nodemon ./config/test.cjs"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-node": "^1.0.0-next.106",
+		"@sveltejs/kit": "^1.5.0",
+		"concurrently": "^7.6.0",
+		"nodemon": "^2.0.21",
+		"svelte": "^3.54.0",
+		"svelte-check": "^3.0.1",
+		"vite": "^4.0.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"glob": "^9.3.0",
+		"moment": "^2.29.4",
+		"mongoose": "^7.0.1",
+		"sveltekit-rate-limiter": "^0.1.8",
+		"util": "^0.12.5"
+	}
+}
