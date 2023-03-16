@@ -44,7 +44,9 @@ __Screenshot__
 
 Clone package from GitHub
 ```
-gh repo clone xl-soft/kit
+mkdir <appname>
+cd <appname>
+npx degit xl-soft/kit
 ```
 
 Install NPM packages
