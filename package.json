@@ -6,8 +6,7 @@
 		"start": "docker-compose -f ./build/docker-compose.yaml up",
 		"build": "concurrently -m 1 \"docker network create net\" \"docker image prune -f\" \"vite build\" \"node -r dotenv/config ./config/build.js\" \"docker-compose -f ./build/docker-compose.yaml build\" \"docker image prune -f\"",
 		"compile": "concurrently -m 1 \"docker network create net\" \"docker image prune -f\" \"vite build\" \"node -r dotenv/config ./config/build.js\" \"docker-compose -f ./build/docker-compose.yaml build\" \"docker image prune -f\" \"docker-compose -f ./build/docker-compose.yaml up\"",
-		"compose": "node -r dotenv/config ./config/build.js",
-		"test": "nodemon ./config/test.cjs"
+		"compose": "node -r dotenv/config ./config/build.js"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-node": "^1.0.0-next.106",

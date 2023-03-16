@@ -27,7 +27,7 @@ services:
     restart: "always"
     container_name: "${config.name}-mongodb"
     ports:
-      - "${process.env.MONGO_EXT_PORT}:27017"
+      - "27017:27017"
     volumes:
       - "${config.name}:/data/db"
       - "${config.name}:/data/configdb"
