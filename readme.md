@@ -7,7 +7,7 @@
 #
 
 <h3 align="center" style="margin-bottom: 15px;">
-    <strong>KIT - I can't think of an acronym, but in Russian it's a whale.</strong> 
+    <strong>KIT - I can't think of an acronym, but in Russian it's a whale</strong> 
 </h3>
 
 <p align="right">
@@ -15,8 +15,19 @@
 </p>
 
 __Ссылки:__
+* <a href="#description">Description</a>
 * <a href="#install">Instalation</a>
 * <a href="#build">Building</a>
+
+<h2 id="description"><strong>Description</strong></h2>
+
+KIT - is the ready for deployment template
+
+__Configured:__
+* Docker
+* NGINX SSL auto-generation
+* SvelteKit
+* MongoDB
 
 <h2 id="install"><strong>Instalation</strong></h2>
 
