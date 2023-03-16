@@ -19,6 +19,8 @@ __Ссылки:__
 * <a href="#install">Instalation</a>
 * <a href="#build">Building</a>
 
+#
+
 <h2 id="description"><strong>Description</strong></h2>
 
 KIT - is the ready for deployment template
@@ -28,6 +30,15 @@ __Configured:__
 * NGINX SSL auto-generation
 * SvelteKit
 * MongoDB
+
+__Screenshot__
+<div align="center" style="margin-top:50px">
+  <a href="https://vk.com/xlsoftware" target="_blank" rel="noreferrer">
+    <img src="https://sun9-55.userapi.com/impg/w3CcQj5NWwxbqnROSewa4pqAHzNgWubZ0LSv2g/1a5h9_xUpOs.jpg?size=1280x607&quality=96&sign=da87ca5623eb2d97f3472966b007b5f1&type=album" width=500>
+  </a>
+</div>
+
+#
 
 <h2 id="install"><strong>Instalation</strong></h2>
 
@@ -57,6 +68,8 @@ Change name in package.json
 }
 ```
 
+#
+
 <h2 id="build"><strong>Building</strong></h2>
 
 Run npm script for building / testing
@@ -71,11 +84,8 @@ npm run build
 # for dev enviroment run
 npm run dev
 ```
-<div align="center" style="margin-top:50px">
-  <a href="https://vk.com/xlsoftware" target="_blank" rel="noreferrer">
-    <img src="https://sun9-55.userapi.com/impg/w3CcQj5NWwxbqnROSewa4pqAHzNgWubZ0LSv2g/1a5h9_xUpOs.jpg?size=1280x607&quality=96&sign=da87ca5623eb2d97f3472966b007b5f1&type=album" width=500>
-  </a>
-</div>
+
+#
 
 <div align="center" style="opacity: 0.2; margin-top:50px">
   <a href="https://vk.com/xlsoftware" target="_blank" rel="noreferrer">
