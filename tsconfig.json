@@ -9,5 +9,5 @@
     "moduleResolution": "node",
     "resolveJsonModule": true
   },
-  "extends": ["./.svelte-kit/tsconfig.json"]
+  "extends": "./.svelte-kit/tsconfig.json"
 }
