@@ -40,11 +40,10 @@ __Screenshot__
 
 Clone package from GitHub
 ```
-mkdir <appname>
-cd <appname>
-npx degit xl-soft/kit
+# clone this template from github
+# then clone your repo localy
 
-# or clone this template from github
+gh repo clone <profile>/<repo>
 ```
 
 Install NPM packages
